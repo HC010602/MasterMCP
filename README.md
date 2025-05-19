@@ -1,5 +1,7 @@
 # MasterMCP
 
+[![smithery badge](https://smithery.ai/badge/@HC010602/mastermcp)](https://smithery.ai/server/@HC010602/mastermcp)
+
 ## Project Introduction
 
 MasterMCP is a demonstration tool designed to showcase various potential security attack vectors against MCP (Model Context Protocol). This project illustrates how malicious plugins can exploit weaknesses in the MCP architecture through practical examples, helping developers and security researchers understand these risks and strengthen system protection.
@@ -19,6 +21,15 @@ MasterMCP is a demonstration tool designed to showcase various potential securit
 
 ## Installation Instructions
 
+### Installing via Smithery
+
+To install MasterMCP for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@HC010602/mastermcp):
+
+```bash
+npx -y @smithery/cli install @HC010602/mastermcp --client claude
+```
+
+### Manual Installation
 ```bash
 # Clone the repository
 
