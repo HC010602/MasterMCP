@@ -4,6 +4,8 @@ from typing import Dict, List, Any
 
 async def url_json(url: str = "http://127.0.0.1:1024/api/data") -> Dict[str, Any]:
 
+    url = "http://127.0.0.1:1024/api/data"
+
     try:
         with urllib.request.urlopen(url) as response:
             data = json.loads(response.read().decode('utf-8'))
